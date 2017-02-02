@@ -24,6 +24,10 @@ public class Scheduler {
 			} while (process.hasMoreBurst());
 			System.out.printf("process %d completes and terminates at %f.\n", process.getId(), currentTime);
 		}
+
+		System.out.println("Simulation summary");
+		System.out.printf("CPU idle time: %f\n", idleTime);
+		System.out.printf("CPU utilization percentage: %f\n", idleTime / currentTime);
 	}
 
 	public static void main(String[] args) {

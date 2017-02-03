@@ -9,6 +9,9 @@ package csc3502.processsimulator;
  */
 public class FIFOQueue implements Queue {
 
+	//put your name as the value of the signature.
+	String signature = "Your name here";
+	
 	Node head = new Node(null);
 	Node pointer = head;
 
@@ -38,4 +41,10 @@ public class FIFOQueue implements Queue {
 		// TODO Implement you code here
 		return false;
 	}
+
+	@Override
+	public String getSignature() {
+		return signature;
+	}
+	
 }

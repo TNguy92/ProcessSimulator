@@ -7,4 +7,6 @@ public interface Queue {
 	Process poll();
 	
 	boolean isEmpty();
+	
+	String getSignature();
 }

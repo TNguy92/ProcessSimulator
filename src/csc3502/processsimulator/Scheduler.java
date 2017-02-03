@@ -28,6 +28,7 @@ public class Scheduler {
 		System.out.println("Simulation summary");
 		System.out.printf("CPU idle time: %f\n", idleTime);
 		System.out.printf("CPU utilization percentage: %f\n", idleTime / currentTime);
+		System.out.println("Signature name: " + queue.getSignature());
 	}
 
 	public static void main(String[] args) {

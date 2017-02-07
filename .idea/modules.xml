@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProcessSim.iml" filepath="$PROJECT_DIR$/.idea/modules/ProcessSim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProcessSim_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ProcessSim_main.iml" group="ProcessSim" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ProcessSim_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ProcessSim_test.iml" group="ProcessSim" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/api/api.iml" filepath="$PROJECT_DIR$/.idea/modules/api/api.iml" group="api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/services.iml" filepath="$PROJECT_DIR$/.idea/modules/services/services.iml" group="services" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared/shared.iml" group="shared" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/services/webservice/webservice.iml" filepath="$PROJECT_DIR$/.idea/modules/services/webservice/webservice.iml" group="services/webservice" />
+    </modules>
+  </component>
+</project>
